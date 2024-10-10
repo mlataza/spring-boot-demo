@@ -1,4 +1,4 @@
-package dev.lambdasys.spring_test.demo;
+package dev.lambdasys.spring_boot_demo.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,4 +18,9 @@ public class DemoApplication {
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
       return String.format("Hello %s!", name);
     }
+
+	@GetMapping("/")
+	public String index() {
+		return "Hello World!";
+	}
 }

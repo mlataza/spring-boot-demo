@@ -8,11 +8,11 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dev.lambdasys.spring-test</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>dev.lambdasys.spring-boot-demo</groupId>
+	<artifactId>spring_boot_demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-demo</name>
+	<description>Spring Boot Demo Project</description>
 	<url/>
 	<licenses>
 		<license/>

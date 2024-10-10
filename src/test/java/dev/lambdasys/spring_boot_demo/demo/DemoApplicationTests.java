@@ -1,4 +1,4 @@
-package dev.lambdasys.spring_test.demo;
+package dev.lambdasys.spring_boot_demo.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
